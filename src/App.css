@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'SWFont';
+  src: local('Starjout') , 
+  url('./assets/fonts/Starjout.ttf') format('truetype');
+}
+
+h1, h2, li {
+  font-family: "SWFont";
+}
+.sw-btn{
+  font-family: "SWFont" !important;
+}
+
+.sw-btn:hover, li:hover,.navbar-toggler:hover, label:hover, h2:hover, img:hover, a>img, h1 {
+  color: #ffffff;
+  background: #3053dd;
+  box-shadow: 0 0 10px #3053dd, 0 0 20px #3053dd, 0 0 40px #3053dd;
+}
