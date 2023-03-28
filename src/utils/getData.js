@@ -4,7 +4,6 @@ const getData = async (url) => {
   try {
     const res = await axios.get(url)
     const result = await res.data
-    console.log(result)
     return result
   } catch (err) {
     if (axios.isCancel(err)) console.log('axios cancel');

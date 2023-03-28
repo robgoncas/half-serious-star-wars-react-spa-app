@@ -23,7 +23,6 @@ const SpaceshipDetail = () => {
 
     const getStarship = async () => {
       const res = await retrieveStarship()
-      console.log(res);
       setStarship(res)
     }
     getStarship()
