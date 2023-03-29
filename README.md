@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project Demo
+
+This project was deployed with [Netlify](https://star-wars-swapi-react-bootstrap-app.netlify.app/).
+
+https://star-wars-swapi-react-bootstrap-app.netlify.app/ [Click here](https://star-wars-swapi-react-bootstrap-app.netlify.app/)
 ## Available Scripts
 
 In the project directory, you can run:
